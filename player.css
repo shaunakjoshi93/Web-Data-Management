@@ -1,0 +1,98 @@
+h1
+{
+    text-align: center;
+}
+
+#player
+{
+    background-color: black;
+    display: inline-block;
+    position: fixed;
+    top: 75px;
+    left: 350px;
+    
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+img, #pbar_container, #sbar_container
+{
+    cursor: pointer;
+}
+
+img
+{
+    background-color: lightgray;
+}
+    
+img: hover
+{
+    background-color: lightskyblue;
+}
+
+#video_container
+{
+    height: 360px;
+    width: 640px;
+}
+    
+    video
+    {
+        height: 100%;
+        width: 100%;
+    }
+
+#pbar_container
+{
+    margin-top: 2px;
+    padding-bottom: 2px;
+    background-color: gray;
+}
+    
+    #pbar
+    {
+        height: 10px;
+        width: 0%;
+        background-color: skyblue;
+    }
+
+#buttons_container
+{
+    height: 50px;
+}
+    
+    #buttons_container > *
+    {
+        display: inline-block;
+        height: 100%;
+        margin: 0 5px;
+    }
+    
+    #time_field
+    {
+        color: skyblue;
+        position: relative;
+        bottom: 20px;
+    }
+
+    #sbar_container
+    {
+        height: 10px;
+        width: 80px;
+        background-color: gray;
+        margin-bottom: 20px;
+    }
+    
+        #sbar
+        {
+            background-color: skyblue;
+            height: 100%;
+        }
+
+    #full_screen_button
+    {
+        position: relative;
+        float: right;  
+    }
